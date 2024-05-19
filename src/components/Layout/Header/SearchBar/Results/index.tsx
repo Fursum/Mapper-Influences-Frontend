@@ -23,7 +23,7 @@ const Results: FC<{ results: UserCompact[]; length?: number }> = ({
             bio: '',
             id: user.id,
             username: user.username,
-            influence_count: 0,
+            mention_count: 0,
           }}
         />
       ))}

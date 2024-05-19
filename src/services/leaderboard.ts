@@ -6,7 +6,7 @@ export type LeaderboardResponse = {
   username: string;
   avatar_url: string;
   bio: string;
-  influence_count: number;
+  mention_count: number;
   country: string;
 }[];
 

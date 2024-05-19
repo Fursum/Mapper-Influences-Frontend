@@ -16,8 +16,8 @@ const Leaderboard: FC<{ className?: string }> = ({ className }) => {
           <div key={user.id} className={styles.row}>
             <BaseProfileCard userId={user.id} offlineData={user} />
             <div className={styles.number}>
-              <span>{user.influence_count}</span>
-              <span>{`Mention${user.influence_count !== 1 ? 's' : ''}`}</span>
+              <span>{user.mention_count}</span>
+              <span>{`Mention${user.mention_count !== 1 ? 's' : ''}`}</span>
             </div>
           </div>
         ))}
